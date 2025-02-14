@@ -12,7 +12,7 @@ explains more details.
 - Adafruit CLUE ([\#4500](https://www.adafruit.com/product/4500))
 - [Adam Tech PH1-3B-02-MVS-5375](https://www.digikey.com/en/products/detail/adam-tech/PH1-3B-02-MVS-5375/9831904)
   2-position through hole pogo pins
-- Hookup wire, 0.1" header pins, Kapton tape
+- Hookup wire, 0.1" header pins, button, Kapton tape
 - [Raspberry Pi Debug Probe](https://www.adafruit.com/product/5699) (or some
   other SWD probe)
 
