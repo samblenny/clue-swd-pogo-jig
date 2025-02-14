@@ -19,26 +19,27 @@ explains more details.
 
 ## Assembly Photos
 
-1. Bottom of perma-proto
-
-   ![bottom of perma-proto board assembly](img/perma-proto-bottom.jpeg)
-
-2. Top of perma-proto
-
-   ![top of perma-proto board assembly](img/perma-proto-top.jpeg)
-
-3. 3D printed base
-
-   ![3D printed base](img/3d-printed-base.jpeg)
-
-4. Perma-proto installed in base
-
-   ![perma-proto assembly installed in base](img/base-with-perma-proto.jpeg)
-
-5. Fully assembled
+1. Fully assembled
 
    ![fully assembled CLUE, SWD adapter and SWD probe](img/fully-assembled-programmer.jpeg)
 
-6. Pogo pin closeup
+2. Perma-proto installed in base
+
+   ![perma-proto assembly installed in base](img/base-with-perma-proto.jpeg)
+
+3. Pogo pin closeup
 
    ![closeup of pogo pins connecting to CLUE](img/pogo-closeup.jpeg)
+
+4. Bottom of perma-proto
+
+   ![bottom of perma-proto board assembly](img/perma-proto-bottom.jpeg)
+
+5. Top of perma-proto
+
+   ![top of perma-proto board assembly](img/perma-proto-top.jpeg)
+
+6. 3D printed base
+
+   ![3D printed base](img/3d-printed-base.jpeg)
+
