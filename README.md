@@ -112,4 +112,6 @@ For me, the end result looked like this:
 
 ![CLUE board showing bootloader screen](img/bootloader_program_success.jpeg)
 
-After that, to get CircuitPython working, I
+After that, to get CircuitPython working, I installed the UF2 file from the
+Circuitpython.org CLUE download page using the normal method, and it worked.
+The un-bricking was a success.
