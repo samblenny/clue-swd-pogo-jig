@@ -1,0 +1,27 @@
+# This uses openocd to flash the Adafruit CLUE board bootloader
+
+OPENOCD=openocd \
+ -f interface/cmsis-dap.cfg -f target/nrf52.cfg \
+ -c "adapter speed 5000" -c init -c targets -c "reset halt"
+
+BOOTLOADER=clue_nrf52840_bootloader-0.9.2_s140_6.1.1.hex
+RELEASE=releases/download/0.9.2/${BOOTLOADER}
+
+# Start openocd with telenet on localhost:4444 to check that config and
+# communication with board are working.
+telnet:
+	${OPENOCD}
+
+# Read all of the nRF52840's flash and write it to flash_dump.bin
+dump_flash:
+	${OPENOCD} -c "dump_image flash_dump.bin 0 0x100000" -c shutdown
+
+# Program the bootloader
+program_hex:
+	${OPENOCD} -c "program ${BOOTLOADER} verify reset exit" -c shutdown
+
+# Download bootloader
+download:
+	wget https://github.com/adafruit/Adafruit_nRF52_Bootloader/${RELEASE}
+
+.PHONY: telnet dump_flash program_hex download
